@@ -1,9 +1,76 @@
 #menu {
 	position: sticky;
-	background: #3E5C76;
+	background: #33FFE9;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 10vh;
 	width: 100%;
 }
+
+h2 {
+	text-align: center;
+}
+	
+
+#about{
+	text-align: center;
+}
+
+#aboutMeDescription{
+	font-family: courier;
+}
+
+#playlist{
+	float: right;
+}
+
+
+#Message {
+	width: 60%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+  }
+
+  #Subject, #Email{
+	width: 60%;
+	height: 20px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+  }
+
+ input[type=submit] {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
+
+  /* input[type="submit"].btn:hover {
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+  } */
+
+  /* .btn{
+	transition-duration: 0.4s;
+  } */

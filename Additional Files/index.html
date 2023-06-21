@@ -13,59 +13,43 @@
 		  
 <section id="about" class="section">
 <br/>
-about me
+<h1>About me</h1>
 <br/>
-<p>My name is Avital Gutman, I'm 26 years old and live in Rishon Le Zion.</p>
+<div id="aboutMeDescription">
+<h2>My name is Avital Gutman, I'm 26 years old and live in Rishon Le Zion.</h2>
+</div>
 </section>
 
 <section id="photos" class="section">
 <br/>
-my photos
+<h1>My photos</h1>
 <br/>
+<img src="cactus.jpg" alt="cactus" style="width:500px;height:600px;">
 </section>
 
 <section id="playlist" class="section">
 <br/>
-my playlist
+<h1>My playlist</h1>
 <br/>
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=OPMdNlpeJng">
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 </section>
 
 <section id="contact" class="section">
 <br/>
-contact me
+<h1>Contact me</h1>
 <br/>
 <body>
-  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
-    <div class="fcf-form-group">
-        <label for="Email" class="fcf-label">Your email address</label>
-        <div class="fcf-input-group">
-            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-        </div>
-    </div>
-
-    <div class="fcf-form-group">
-      <label for="Subject" class="fcf-label">Subject</label>
-      <div class="fcf-input-group">
-          <input type="text" id="Subject" name="Subject" class="fcf-form-control" required>
-      </div>
-  </div>
-
-    <div class="fcf-form-group">
-        <label for="Message" class="fcf-label">Your message</label>
-        <div class="fcf-input-group">
-            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-        </div>
-    </div>
-
-    <div class="fcf-form-group">
-        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-    </div>
-
-  </form>
+  <form action="mailto:avitalgutman6297@gmail.com" method="post" enctype="text/plain">
+    E-mail:<br>
+    <input id="Email" type="text" name="Mail"><br>
+    Subject:<br>
+    <input id ="Subject" type="text" name="Subject"><br>
+    Comment:<br>
+    <textarea id="Message" name="Message" rows="6" maxlength="3000" required>Say something...</textarea><br>
+    <input class="btn" type="submit" value="Send">
+    </form>
 </body>
 </section>
 
