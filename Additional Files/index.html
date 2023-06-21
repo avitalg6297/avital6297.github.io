@@ -15,6 +15,7 @@
 <br/>
 about me
 <br/>
+<p>My name is Avital Gutman, I'm 26 years old and live in Rishon Le Zion.</p>
 </section>
 
 <section id="photos" class="section">
@@ -27,13 +28,45 @@ my photos
 <br/>
 my playlist
 <br/>
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=OPMdNlpeJng">
+</iframe>
 </section>
 
 <section id="contact" class="section">
 <br/>
-
 contact me
 <br/>
+<body>
+  <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+    <div class="fcf-form-group">
+        <label for="Email" class="fcf-label">Your email address</label>
+        <div class="fcf-input-group">
+            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+        </div>
+    </div>
+
+    <div class="fcf-form-group">
+      <label for="Subject" class="fcf-label">Subject</label>
+      <div class="fcf-input-group">
+          <input type="text" id="Subject" name="Subject" class="fcf-form-control" required>
+      </div>
+  </div>
+
+    <div class="fcf-form-group">
+        <label for="Message" class="fcf-label">Your message</label>
+        <div class="fcf-input-group">
+            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+        </div>
+    </div>
+
+    <div class="fcf-form-group">
+        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+    </div>
+
+  </form>
+</body>
 </section>
 
 
