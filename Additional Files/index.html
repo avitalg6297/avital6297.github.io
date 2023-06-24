@@ -2,18 +2,29 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+  img {
+    border-radius: 8px;
+  }
+  </style>
 </head>
 <body>
+<div class="wrapper">
 <div id="menu">
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
 <li><a href="#playlist">My Playlist</a></li>
 <li><a href="#contact">Contact Me</a></li>
 </div>
+</div>
 		  
 <section id="about" class="section">
 <br/>
-<h1>About me</h1>
+<div class="wrapper">
+  <div class="container">
+    <h1>About me</h1>
+  </div>
+</div>
 <br/>
 <div id="aboutMeDescription">
 <h2>My name is Avital Gutman, I'm 26 years old and live in Rishon Le Zion.</h2>
@@ -22,35 +33,56 @@
 
 <section id="photos" class="section">
 <br/>
-<h1>My photos</h1>
+<div class="wrapper">
+  <div class="container">
+    <h1>My photos</h1>
+  </div>
+</div>
 <br/>
-<img src="cactus.jpg" alt="cactus" style="width:500px;height:600px;">
+<div id="images">
+  <img src="cactus.jpg" border-radius: 8px;>
+  <img src="cactus.jpg" border-radius: 8px;>
+</div>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<h1>My playlist</h1>
-<br/>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-</section>
+  <br/>
+  <div class="wrapper">
+    <div class="container">
+      <h1>My playlist</h1>
+    </div>
+  </div>
+  <br/>
+  <div class="center-video">
+   <iframe width="480" height="320" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0"  allowfullscreen></iframe> 
+    </div>
+    </div>
+  </section>
 
 <section id="contact" class="section">
 <br/>
-<h1>Contact me</h1>
+<div class="wrapper">
+  <div class="container">
+    <h1>Contact me</h1>
+  </div>
+</div>
 <br/>
-<body>
-  <form action="mailto:avitalgutman6297@gmail.com" method="post" enctype="text/plain">
-    E-mail:<br>
+<div class ="center-form">
+<body>    
+  <form action="mailto:avitalgutman6297@gmail.com" method="post" enctype="text/plain" >
+    <br>
+    <h1>Email::</h1>
     <input id="Email" type="text" name="Mail"><br>
-    Subject:<br>
+    <br>
+    <h1>Subject:</h1>
     <input id ="Subject" type="text" name="Subject"><br>
-    Comment:<br>
+    <br>
+    <h1>Message:</h1>
     <textarea id="Message" name="Message" rows="6" maxlength="3000" required>Say something...</textarea><br>
     <input class="btn" type="submit" value="Send">
     </form>
 </body>
+</div>
 </section>
 
 

@@ -1,6 +1,5 @@
 #menu {
 	position: sticky;
-	background: #33FFE9;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -11,6 +10,75 @@
 h2 {
 	text-align: center;
 }
+
+* {
+	box-sizing: border-box
+  }
+  
+  :root {
+	--color-1: #186cb8;
+	--color-2: #2a9a9f;
+	--color-3: #f1b211;
+	--color-4: #e83611;
+	--color-5: #f9002f;
+  }
+  
+  
+  .wrapper {
+	background:#000;
+	line-height: 1;
+	min-height: 20%;
+	display: grid;
+	place-items: center;
+	min-height: calc(1vh - 200px);
+  }
+  
+  h1,a {
+	font-family: "Exo", sans-serif;
+	font-size: 1vw;
+	font-weight: 900;
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content;
+	margin: auto;
+	text-transform: uppercase;
+	background: linear-gradient(219deg, 
+	  var(--color-1) 19%, 
+	  transparent 19%,transparent 20%, 
+	  var(--color-2) 20%, var(--color-2)  39%,
+	  transparent 39%,transparent 40%, 
+	  var(--color-3) 40%,var(--color-3) 59% ,
+	  transparent 59%,transparent 60%, 
+	  var(--color-4) 60%, var(--color-4) 79%,
+	  transparent 79%, transparent 80%, 
+	  var(--color-5) 80%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+  }
+
+  .container {
+	padding: 0.5rem;   
+	text-align: center;
+	width: 30%;
+	/* background: radial-gradient(circle at 1.4% 1.4% ,var(--color-1) .8%,transparent  .8% ), 
+	  radial-gradient(circle at 5.5% 3%,var(--color-2) .45% ,transparent .45% ), 
+	  radial-gradient(circle at 2.5% 3.5%,var(--color-3) .5% ,transparent .5% ), 
+	  radial-gradient(circle at 4.5% 1.2%,var(--color-4) .25%,transparent .25% ),
+  
+	  radial-gradient(circle at 98% 98% ,var(--color-1) .8%,transparent  .8% ), 
+	  radial-gradient(circle at 95% 95%,var(--color-2) .45% ,transparent .45% ), 
+	  radial-gradient(circle at 94.5% 97.5%,var(--color-3) .5% ,transparent .5% ), 
+	  radial-gradient(circle at 98.5% 95.5%,var(--color-4) .25%,transparent .25% );
+   */
+  
+  }
+  
+  @media screen and (min-width: 768px) {
+	h1 {
+	  font-size: 1.5rem;
+	}
+  }
 	
 
 #about{
@@ -21,10 +89,49 @@ h2 {
 	font-family: courier;
 }
 
-#playlist{
-	float: right;
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	width: 45vh;
 }
 
+.center-form{
+	display: block;
+	border-left-width: 50vh;
+	
+}
+
+.parent{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	gap: 5px;
+}
+
+#images{
+	text-align:center;
+ }
+
+img {
+	width: 400px;
+	height: 300px
+  }
+
+  .center-video {
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+	overflow: hidden;
+	z-index: 1;
+	height: 320px;
+	width: 480px;
+  }
 
 #Message {
 	width: 60%;
@@ -36,6 +143,10 @@ h2 {
 	background-color: #f8f8f8;
 	font-size: 16px;
 	resize: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
   }
 
   #Subject, #Email{
@@ -48,29 +159,39 @@ h2 {
 	background-color: #f8f8f8;
 	font-size: 16px;
 	resize: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
   }
 
  input[type=submit] {
-	background-color: #04AA6D;
+	background-color: #0b110f;
 	border: none;
 	color: white;
 	padding: 16px 32px;
 	text-decoration: none;
 	margin: 4px 2px;
 	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
   }
 
-
-  /* input[type="submit"].btn:hover {
-	background-color: #4CAF50; 
+  input[type="submit"].btn:hover {
+	background-color: #8a8b8a; 
 	border: none;
 	color: white;
 	padding: 16px 32px;
 	text-decoration: none;
 	margin: 4px 2px;
 	cursor: pointer;
-  } */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  } 
 
-  /* .btn{
-	transition-duration: 0.4s;
-  } */
+   .btn{
+	transition-duration: 0.9s;
+  }
