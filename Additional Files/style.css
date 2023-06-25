@@ -61,17 +61,6 @@ h2 {
 	padding: 0.5rem;   
 	text-align: center;
 	width: 30%;
-	/* background: radial-gradient(circle at 1.4% 1.4% ,var(--color-1) .8%,transparent  .8% ), 
-	  radial-gradient(circle at 5.5% 3%,var(--color-2) .45% ,transparent .45% ), 
-	  radial-gradient(circle at 2.5% 3.5%,var(--color-3) .5% ,transparent .5% ), 
-	  radial-gradient(circle at 4.5% 1.2%,var(--color-4) .25%,transparent .25% ),
-  
-	  radial-gradient(circle at 98% 98% ,var(--color-1) .8%,transparent  .8% ), 
-	  radial-gradient(circle at 95% 95%,var(--color-2) .45% ,transparent .45% ), 
-	  radial-gradient(circle at 94.5% 97.5%,var(--color-3) .5% ,transparent .5% ), 
-	  radial-gradient(circle at 98.5% 95.5%,var(--color-4) .25%,transparent .25% );
-   */
-  
   }
   
   @media screen and (min-width: 768px) {
@@ -80,35 +69,14 @@ h2 {
 	}
   }
 	
-
-#about{
-	text-align: center;
-}
-
 #aboutMeDescription{
 	font-family: courier;
-}
-
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	width: 45vh;
 }
 
 .center-form{
 	display: block;
 	border-left-width: 50vh;
 	
-}
-
-.parent{
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	gap: 5px;
 }
 
 #images{
@@ -195,6 +163,3 @@ img {
    .btn{
 	transition-duration: 0.9s;
   }
-
-
-  
