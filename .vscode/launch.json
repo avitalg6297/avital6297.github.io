@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\dvirl\\Documents\\Prototype Training\\chapter-a-basic\\Additional Files\\index.html"
+            "file": "C:\\Users\\avita\\vscode projects\\chapter-a-basic\\Additional Files\\index.html"
         }
     ]
 }
