@@ -10,35 +10,27 @@
 h2 {
 	text-align: center;
 }
-
-* {
-	box-sizing: border-box
-  }
-  
+ 
   :root {
-	--color-1: #186cb8;
-	--color-2: #2a9a9f;
-	--color-3: #f1b211;
-	--color-4: #e83611;
-	--color-5: #f9002f;
+	--color-1: #b81875;
+	--color-2: #e799c4;
+	--color-3: #930558;
+	--color-4: #f7a1d4;
+	--color-5: #680544;
   }
   
   
   .wrapper {
-	background:#000;
+	background:#0c0c0c;
 	line-height: 1;
-	min-height: 20%;
-	display: grid;
-	place-items: center;
-	min-height: calc(1vh - 200px);
+	display: grid;  
+     place-items: center;
   }
   
   h1,a {
 	font-family: "Exo", sans-serif;
-	font-size: 1vw;
+	font-size: 24px;
 	font-weight: 900;
-	width: -webkit-min-content;
-	width: -moz-min-content;
 	width: min-content;
 	margin: auto;
 	text-transform: uppercase;
@@ -58,25 +50,12 @@ h2 {
   }
 
   .container {
-	padding: 0.5rem;   
+	padding: 8px;   
 	text-align: center;
-	width: 30%;
   }
-  
-  @media screen and (min-width: 768px) {
-	h1 {
-	  font-size: 1.5rem;
-	}
-  }
-	
+  	
 #aboutMeDescription{
 	font-family: courier;
-}
-
-.center-form{
-	display: block;
-	border-left-width: 50vh;
-	
 }
 
 #images{
@@ -85,18 +64,17 @@ h2 {
 
 img {
 	width: 400px;
-	height: 300px
+	height: 300px;
+	border-radius: 8px;
   }
 
   .center-video {
 	text-align: center;
-	display: block;
     margin-left: auto;
     margin-right: auto;
 
     border-radius: 10px;
 	overflow: hidden;
-	z-index: 1;
 	height: 320px;
 	width: 480px;
   }
