@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"/>
 </head>
 <body>
 <div class="wrapper">
@@ -72,7 +73,15 @@
     <input id ="Subject" type="text" name="Subject"><br>
     <br>
     <h1>Message:</h1>
-    <textarea id="Message" name="Message" rows="6" maxlength="3000" required>Say something...</textarea><br>
+    <textarea id="Message" name="Message" rows="6" maxlength="3000" required placeholder="Say something..."></textarea><br>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+    
+    <script>
+      $('#Message').emojioneArea({
+        pickerPosition:'top'
+      });
+    </script>
     <input class="btn" type="submit" value="Send">
     </form>
   </div>
