@@ -27,9 +27,9 @@ h2 {
      place-items: center;
   }
   
-  h1,a {
+  .container h1, .wrapper a, .contact-form h1 {
 	font-family: "Exo", sans-serif;
-	font-size: 24px;
+	font-size: 3.3vh;
 	font-weight: 900;
 	width: min-content;
 	margin: auto;
@@ -50,7 +50,7 @@ h2 {
   }
 
   .container {
-	padding: 8px;   
+	padding: 1vh;   
 	text-align: center;
   }
   	
@@ -63,9 +63,9 @@ h2 {
  }
 
 img {
-	width: 400px;
-	height: 300px;
-	border-radius: 8px;
+	width: 54.5vh;
+	height: 40.7vh;
+	border-radius: 1vh;
   }
 
   .center-video {
@@ -73,21 +73,21 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    border-radius: 10px;
+    border-radius: 2vh;
 	overflow: hidden;
-	height: 320px;
-	width: 480px;
+	height: 43vh;
+	width: 65vh;
   }
 
 #Message {
 	width: 60%;
-	height: 150px;
-	padding: 12px 20px;
+	height: 20.3vh;
+	padding: 1.6vh 2.7vh;
 	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
+	border: 0.3vh solid #ccc;
+	border-radius: 0.5vh;
 	background-color: #f8f8f8;
-	font-size: 16px;
+	font-size: 2vh;
 	resize: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -97,13 +97,13 @@ img {
 
   #Subject, #Email{
 	width: 60%;
-	height: 20px;
-	padding: 12px 20px;
+	height: 2.7vh;
+	padding: 1.6vh 2.7vh;
 	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
+	border: 0.3vh solid #ccc;
+	border-radius: 0.5vh;
 	background-color: #f8f8f8;
-	font-size: 16px;
+	font-size: 2vh;
 	resize: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -115,9 +115,9 @@ img {
 	background-color: #0b110f;
 	border: none;
 	color: white;
-	padding: 16px 32px;
+	padding: 2vh 4.3vh;
 	text-decoration: none;
-	margin: 4px 2px;
+	margin: 0.5vh 0.3vh;
 	cursor: pointer;
 	margin-left: auto;
 	margin-right: auto;
@@ -128,9 +128,9 @@ img {
 	background-color: #8a8b8a; 
 	border: none;
 	color: white;
-	padding: 16px 32px;
+	padding: 2vh 4.3vh;
 	text-decoration: none;
-	margin: 4px 2px;
+	margin:  0.5vh 0.3vh;
 	cursor: pointer;
 	margin-left: auto;
 	margin-right: auto;
