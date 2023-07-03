@@ -2,38 +2,90 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"/>
 </head>
 <body>
+<div class="wrapper navbar">
 <div id="menu">
 <li><a href="#about">About Me</a></li>
 <li><a href="#photos">My Photos</a></li>
 <li><a href="#playlist">My Playlist</a></li>
 <li><a href="#contact">Contact Me</a></li>
 </div>
+</div>
 		  
-<section id="about" class="section">
+<section id="about">
 <br/>
-about me
+<div class="wrapper">
+  <div class="container">
+    <h1>About me</h1>
+  </div>
+</div>
 <br/>
+<div id="aboutMeDescription">
+<h2>My name is Avital Gutman, I'm 26 years old and live in Rishon Le Zion.</h2>
+</div>
 </section>
 
-<section id="photos" class="section">
+<section id="photos">
 <br/>
-my photos
+<div class="wrapper">
+  <div class="container">
+    <h1>My photos</h1>
+  </div>
+</div>
 <br/>
+<div id="images">
+  <img src="cactus.jpg" >
+  <img src="cactus.jpg" >
+</div>
 </section>
 
-<section id="playlist" class="section">
-<br/>
-my playlist
-<br/>
-</section>
+<section id="playlist">
+  <br/>
+  <div class="wrapper">
+    <div class="container">
+      <h1>My playlist</h1>
+    </div>
+  </div>
+  <br/>
+  <div class="center-video">
+   <iframe width="480" height="320" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" ></iframe> 
+    </div>
+    </div>
+  </section>
 
-<section id="contact" class="section">
+<section id="contact">
 <br/>
-
-contact me
-<br/>
+<div class="wrapper">
+  <div class="container">
+    <h1>Contact me</h1>
+  </div>
+</div>
+<br/> 
+<div class = "contact-form">
+  <form action="mailto:avitalgutman6297@gmail.com" method="post" enctype="text/plain" >
+    <br>
+    <h1>Email:</h1>
+    <input id="Email" type="text" name="Mail"><br>
+    <br>
+    <h1>Subject:</h1>
+    <input id ="Subject" type="text" name="Subject"><br>
+    <br>
+    <h1>Message:</h1>
+    <textarea id="Message" name="Message" rows="6" maxlength="3000" required placeholder="Say something..."></textarea><br>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+    
+    <script>
+      $('#Message').emojioneArea({
+        pickerPosition:'top'
+      });
+    </script>
+    <input class="btn" type="submit" value="Send">
+    </form>
+  </div>
+  </div>
 </section>
 
 
@@ -52,3 +104,4 @@ $(function(){
  </script>
 </body>
 </html>
+
