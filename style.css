@@ -1,0 +1,144 @@
+#menu {
+	position: fixed;
+	background-color: #0b110f;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+	width: 100%;
+	top: 0;
+}
+
+
+h2 {
+	text-align: center;
+}
+ 
+  :root {
+	--color-1: #b81875;
+	--color-2: #e799c4;
+	--color-3: #930558;
+	--color-4: #f7a1d4;
+	--color-5: #680544;
+  }
+  
+  
+  .wrapper {
+	background:#0c0c0c;
+	line-height: 1;
+	display: grid;  
+     place-items: center;
+  }
+  
+  .container h1, .wrapper a, .contact-form h1 {
+	font-family: "Exo", sans-serif;
+	font-size: 3.3vh;
+	font-weight: 900;
+	width: min-content;
+	margin: auto;
+	text-transform: uppercase;
+	background: linear-gradient(219deg, 
+	  var(--color-1) 19%, 
+	  transparent 19%,transparent 20%, 
+	  var(--color-2) 20%, var(--color-2)  39%,
+	  transparent 39%,transparent 40%, 
+	  var(--color-3) 40%,var(--color-3) 59% ,
+	  transparent 59%,transparent 60%, 
+	  var(--color-4) 60%, var(--color-4) 79%,
+	  transparent 79%, transparent 80%, 
+	  var(--color-5) 80%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+  }
+
+  .container {
+	padding: 1vh;   
+	text-align: center;
+  }
+  	
+#aboutMeDescription{
+	font-family: courier;
+}
+
+#images{
+	text-align:center;
+ }
+
+img {
+	width: 54.5vh;
+	height: 40.7vh;
+	border-radius: 1vh;
+  }
+
+  .center-video {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 2vh;
+	overflow: hidden;
+	height: 43vh;
+	width: 65vh;
+  }
+
+#Message {
+	width: 60%;
+	height: 20.3vh;
+	padding: 1.6vh 2.7vh;
+	box-sizing: border-box;
+	border: 0.3vh solid #ccc;
+	border-radius: 0.5vh;
+	background-color: #f8f8f8;
+	font-size: 2vh;
+	resize: both;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+  }
+
+  #Subject, #Email{
+	width: 60%;
+	height: 2.7vh;
+	padding: 1.6vh 2.7vh;
+	box-sizing: border-box;
+	border: 0.3vh solid #ccc;
+	border-radius: 0.5vh;
+	background-color: #f8f8f8;
+	font-size: 2vh;
+	resize: both;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+  }
+
+ input[type=submit] {
+	background-color: #0b110f;
+	border: none;
+	color: white;
+	padding: 2vh 4.3vh;
+	text-decoration: none;
+	margin: 0.5vh 0.3vh;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }
+
+  input[type="submit"].btn:hover {
+	background-color: #8a8b8a; 
+	border: none;
+	color: white;
+	padding: 2vh 4.3vh;
+	text-decoration: none;
+	margin:  0.5vh 0.3vh;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+  } 
+
+   .btn{
+	transition-duration: 0.9s;
+  }
